@@ -236,4 +236,16 @@ C:\Projects\MAL\MAL.Module\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.dll
 C:\Projects\MAL\MAL.Module\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
 C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.dll
 C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.pdb
-C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.csprojResolveAssemblyReference.cache
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration1.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration2.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration3.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration4.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration5.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration6.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration7.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration8.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration9.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration10.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration11.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration12.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration13.resources

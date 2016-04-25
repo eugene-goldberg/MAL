@@ -258,3 +258,4 @@ C:\Projects\MAL\MAL.Module.Web\bin\Debug\ja\DevExpress.Pdf.v15.2.Core.resources.
 C:\Projects\MAL\MAL.Module.Web\bin\Debug\ru\DevExpress.Pdf.v15.2.Core.resources.dll
 C:\Projects\MAL\MAL.Module.Web\obj\Debug\MAL.Module.Web.dll
 C:\Projects\MAL\MAL.Module.Web\obj\Debug\MAL.Module.Web.pdb
+C:\Projects\MAL\MAL.Module.Web\obj\Debug\MAL.Module.Web.dll.licenses

@@ -15,6 +15,7 @@ using DevExpress.ExpressApp.Model.DomainLogics;
 using DevExpress.ExpressApp.Model.NodeGenerators;
 using System.Data.Entity;
 using MAL.Module.BusinessObjects;
+using System.Data.Entity.Infrastructure;
 
 namespace MAL.Module {
     // For more typical usage scenarios, be sure to check out https://documentation.devexpress.com/eXpressAppFramework/clsDevExpressExpressAppModuleBasetopic.aspx.
@@ -38,6 +39,14 @@ namespace MAL.Module {
         public override void Setup(XafApplication application) {
             base.Setup(application);
             // Manage various aspects of the application UI and behavior at the module level.
+        }
+
+        public class MigrationsContextFactory : IDbContextFactory<MALDbContext>
+        {
+            public MALDbContext Create()
+            {
+                return new MALDbContext("ConnectionString");
+            }
         }
     }
 }

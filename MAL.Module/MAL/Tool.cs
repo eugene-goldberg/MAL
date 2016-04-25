@@ -19,7 +19,7 @@ namespace MAL.Module.BusinessObjects
         public Tool()
         {
             // In the constructor, initialize collection properties, e.g.: 
-            this.AssociatedAccounts = new List<Account>();
+            //this.AssociatedAccounts = new List<Account>();
         }
         [Browsable(false)]  // Hide the entity identifier from UI.
         public Int32 ID { get; protected set; }
@@ -69,6 +69,6 @@ namespace MAL.Module.BusinessObjects
         public string ToolInstanceName { get; set; }
         public string Description { get; set; }
 
-        public virtual IList<Account> AssociatedAccounts { get; set; }
+        //public virtual IList<Account> AssociatedAccounts { get; set; }
     }
 }

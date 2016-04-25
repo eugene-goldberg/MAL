@@ -10,6 +10,7 @@ using DevExpress.ExpressApp.Model;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl.EF;
 using DevExpress.Persistent.Validation;
+using MAL.Module.UDM;
 
 namespace MAL.Module.BusinessObjects
 {
@@ -19,13 +20,13 @@ namespace MAL.Module.BusinessObjects
     public class Account : IXafEntityObject, IObjectSpaceLink, INotifyPropertyChanged
     {
         public Account()
-        { 
-            this.Service = new List<Service>();
-            this.Alias = new List<AccountAlias>();
-            this.Tool = new List<Tool>();
+        {
+            this.Aliases = new List<AccountAlias>();
         }
         [Browsable(false)]
-        public string AccountID { get; protected set; }
+
+        public int ID { get; protected set; }
+        public string AccountID { get; set; }
 
         #region IXafEntityObject members (see https://documentation.devexpress.com/eXpressAppFramework/clsDevExpressExpressAppIXafEntityObjecttopic.aspx)
         void IXafEntityObject.OnCreated()
@@ -73,17 +74,17 @@ namespace MAL.Module.BusinessObjects
         public string Customer { get; set; }
         public string SnowDomainName { get; set; }
         public string CapCode { get; set; }
-        public double AccountTcvPotential { get; set; }
-        public double AccountTcvAwarded { get; set; }
-        public DateTime ContractStartDate { get; set; }
-        public DateTime ContractExpiryDate { get; set; }
+        public double? AccountTcvPotential { get; set; }
+        public double? AccountTcvAwarded { get; set; }
+        public DateTime? ContractStartDate { get; set; }
+        public DateTime? ContractExpiryDate { get; set; }
         public string ContractType { get; set; }
-        public double ContractTermInMonth { get; set; }
-        public int CurrentContractYear { get; set; }
+        public double? ContractTermInMonth { get; set; }
+        public int? CurrentContractYear { get; set; }
         public string ContractBaseOptions { get; set; }
         public string SfdcIdNumber { get; set; }
-        public bool HasServiceLevelAgreements { get; set; }
-        public bool HasContractualReportingRequirements { get; set; }
+        public bool? HasServiceLevelAgreements { get; set; }
+        public bool? HasContractualReportingRequirements { get; set; }
         public string AccountFinancialsParentFamily { get; set; }
         public string PaymentTerms { get; set; }
         public string SecurityRestrictions { get; set; }
@@ -96,8 +97,8 @@ namespace MAL.Module.BusinessObjects
         public string PrimaryDeliveryRegion { get; set; }
         public string OedRegion { get; set; }
         public string LeadOffering { get; set; }
-        public virtual IList<Service> Service { get; set; }
-        public virtual IList<AccountAlias> Alias { get; set; }
-        public virtual IList<Tool> Tool { get; set; }
+        public virtual IList<AccountAlias> Aliases { get; set; }
+        public virtual IList<ChangeMeasure> ChangeMeasures { get; set; }
+        public virtual IList<AccountTool> AccountTools { get; set; }
     }
 }

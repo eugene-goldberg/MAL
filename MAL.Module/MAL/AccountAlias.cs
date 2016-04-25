@@ -10,6 +10,7 @@ using DevExpress.ExpressApp.Model;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl.EF;
 using DevExpress.Persistent.Validation;
+using System.ComponentModel.DataAnnotations;
 
 namespace MAL.Module.BusinessObjects
 {
@@ -23,7 +24,9 @@ namespace MAL.Module.BusinessObjects
             // In the constructor, initialize collection properties, e.g.: 
         }
         [Browsable(false)]  // Hide the entity identifier from UI.
-        public Int32 AccountAlilasID { get; protected set; }
+        public int ID { get; protected set; }
+        public virtual Account Account { get; set; }
+        public Int32 AccountAlilasID { get; set; }
 
         public string AliasName { get; set; }
         public string SourceSystem { get; set; }

@@ -106,6 +106,60 @@
     <Compile Include="MAL\Role.cs" />
     <Compile Include="MAL\Service.cs" />
     <Compile Include="MAL\Tool.cs" />
+    <Compile Include="Migrations\201604232233507_migration-1.cs" />
+    <Compile Include="Migrations\201604232233507_migration-1.Designer.cs">
+      <DependentUpon>201604232233507_migration-1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604232237518_migration-2.cs" />
+    <Compile Include="Migrations\201604232237518_migration-2.Designer.cs">
+      <DependentUpon>201604232237518_migration-2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604232241177_migration-3.cs" />
+    <Compile Include="Migrations\201604232241177_migration-3.Designer.cs">
+      <DependentUpon>201604232241177_migration-3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604232242329_migration-4.cs" />
+    <Compile Include="Migrations\201604232242329_migration-4.Designer.cs">
+      <DependentUpon>201604232242329_migration-4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604232243263_migration-5.cs" />
+    <Compile Include="Migrations\201604232243263_migration-5.Designer.cs">
+      <DependentUpon>201604232243263_migration-5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604240201410_migration-6.cs" />
+    <Compile Include="Migrations\201604240201410_migration-6.Designer.cs">
+      <DependentUpon>201604240201410_migration-6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604240206083_migration-7.cs" />
+    <Compile Include="Migrations\201604240206083_migration-7.Designer.cs">
+      <DependentUpon>201604240206083_migration-7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604240217390_migration-8.cs" />
+    <Compile Include="Migrations\201604240217390_migration-8.Designer.cs">
+      <DependentUpon>201604240217390_migration-8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604252132273_migration-9.cs" />
+    <Compile Include="Migrations\201604252132273_migration-9.Designer.cs">
+      <DependentUpon>201604252132273_migration-9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604252152344_migration-10.cs" />
+    <Compile Include="Migrations\201604252152344_migration-10.Designer.cs">
+      <DependentUpon>201604252152344_migration-10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604252157007_migration-11.cs" />
+    <Compile Include="Migrations\201604252157007_migration-11.Designer.cs">
+      <DependentUpon>201604252157007_migration-11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604252225333_migration-12.cs" />
+    <Compile Include="Migrations\201604252225333_migration-12.Designer.cs">
+      <DependentUpon>201604252225333_migration-12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201604252238236_migration-13.cs" />
+    <Compile Include="Migrations\201604252238236_migration-13.Designer.cs">
+      <DependentUpon>201604252238236_migration-13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UDM\AccountTool.cs" />
+    <Compile Include="UDM\ChangeMeasure.cs" />
     <Compile Include="UDM\DetailIncident.cs" />
     <Compile Include="DatabaseUpdate\Updater.cs" />
     <Compile Include="Migrations\Configuration.cs" />
@@ -118,6 +172,45 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Migrations\201604232233507_migration-1.resx">
+      <DependentUpon>201604232233507_migration-1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604232237518_migration-2.resx">
+      <DependentUpon>201604232237518_migration-2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604232241177_migration-3.resx">
+      <DependentUpon>201604232241177_migration-3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604232242329_migration-4.resx">
+      <DependentUpon>201604232242329_migration-4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604232243263_migration-5.resx">
+      <DependentUpon>201604232243263_migration-5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604240201410_migration-6.resx">
+      <DependentUpon>201604240201410_migration-6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604240206083_migration-7.resx">
+      <DependentUpon>201604240206083_migration-7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604240217390_migration-8.resx">
+      <DependentUpon>201604240217390_migration-8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604252132273_migration-9.resx">
+      <DependentUpon>201604252132273_migration-9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604252152344_migration-10.resx">
+      <DependentUpon>201604252152344_migration-10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604252157007_migration-11.resx">
+      <DependentUpon>201604252157007_migration-11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604252225333_migration-12.resx">
+      <DependentUpon>201604252225333_migration-12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201604252238236_migration-13.resx">
+      <DependentUpon>201604252238236_migration-13.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
     <EmbeddedResource Include="Module.resx">
       <SubType>Designer</SubType>

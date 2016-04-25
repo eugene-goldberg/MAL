@@ -14,18 +14,192 @@ namespace MAL.Module.Migrations
 
         protected override void Seed(BusinessObjects.MALDbContext context)
         {
-            //  This method will be called after migrating to the latest version.
+           
+       //     context.ChangeMeasures.Add(
+       //         new UDM.ChangeMeasure {
+       //             AccountID = "AON-123",
+       //             MeasureName = "Changes Performed",
+       //             Value = 3,
+       //             Justification = ""
+       //         });
+       //     context.ChangeMeasures.Add(
+       //        new UDM.ChangeMeasure
+       //        {
+       //            AccountID = "AON-123",
+       //            MeasureName = "Changes Successful",
+       //            Value = 3,
+       //            Justification = ""
+       //        });
+       //     context.ChangeMeasures.Add(
+       //        new UDM.ChangeMeasure
+       //        {
+       //            AccountID = "AON-123",
+       //            MeasureName = "# Emergency Changes",
+       //            Value = 3,
+       //            Justification = ""
+       //        });
+       //     context.ChangeMeasures.Add(
+       //        new UDM.ChangeMeasure
+       //        {
+       //            AccountID = "AON-123",
+       //            MeasureName = "% Emergency Changes",
+       //            Value = 3,
+       //            Justification = ""
+       //        });
+       //     context.ChangeMeasures.Add(
+       //       new UDM.ChangeMeasure
+       //       {
+       //           AccountID = "AON-123",
+       //           MeasureName = "# of Process Defect in failed changes",
+       //           Value = 3,
+       //           Justification = ""
+       //       });
+       //     context.ChangeMeasures.Add(
+       //       new UDM.ChangeMeasure
+       //       {
+       //           AccountID = "AON-123",
+       //           MeasureName = "% Process defects in changes",
+       //           Value = 3,
+       //           Justification = ""
+       //       });
+       //     context.ChangeMeasures.Add(
+       //      new UDM.ChangeMeasure
+       //      {
+       //          AccountID = "AON-123",
+       //          MeasureName = "#  Urgent / Expedited /Alert Changes",
+       //          Value = 3,
+       //          Justification = ""
+       //      });
+       //     context.ChangeMeasures.Add(
+       //      new UDM.ChangeMeasure
+       //      {
+       //          AccountID = "AON-123",
+       //          MeasureName = "% Urgent / Expedited /Alert Changes",
+       //          Value = 3,
+       //          Justification = ""
+       //      });
+       //     context.ChangeMeasures.Add(
+       //     new UDM.ChangeMeasure
+       //     {
+       //         AccountID = "AON-123",
+       //         MeasureName = "#  of Unclosed Changes",
+       //         Value = 3,
+       //         Justification = ""
+       //     });
+       //     context.ChangeMeasures.Add(
+       //   new UDM.ChangeMeasure
+       //   {
+       //       AccountID = "AON-123",
+       //       MeasureName = "%  of Unclosed Changes",
+       //       Value = 3,
+       //       Justification = ""
+       //   });
+       //     context.ChangeMeasures.Add(
+       // new UDM.ChangeMeasure
+       // {
+       //     AccountID = "AON-123",
+       //     MeasureName = "% of failed changes",
+       //     Value = 3,
+       //     Justification = ""
+       // });
+       //     context.ChangeMeasures.Add(
+       //new UDM.ChangeMeasure
+       //{
+       //    AccountID = "AON-123",
+       //    MeasureName = "# Changes lead to major Incidents",
+       //    Value = 3,
+       //    Justification = ""
+       //});
+       //     context.ChangeMeasures.Add(
+       //   new UDM.ChangeMeasure
+       //   {
+       //       AccountID = "AON-123",
+       //       MeasureName = "# Problem opened",
+       //       Value = 3,
+       //       Justification = ""
+       //   });
+       //     context.ChangeMeasures.Add(
+       //   new UDM.ChangeMeasure
+       //   {
+       //       AccountID = "AON-123",
+       //       MeasureName = "# Problem Closed",
+       //       Value = 3,
+       //       Justification = ""
+       //   });
+       //     context.ChangeMeasures.Add(
+       //     new UDM.ChangeMeasure
+       //     {
+       //         AccountID = "AON-123",
+       //         MeasureName = "#  Solutions derived from PR  (RC)",
+       //         Value = 3,
+       //         Justification = ""
+       //     });
+       //     context.ChangeMeasures.Add(
+       //     new UDM.ChangeMeasure
+       //     {
+       //         AccountID = "AON-123",
+       //         MeasureName = "% of Problem resolved with Root Cause",
+       //         Value = 3,
+       //         Justification = ""
+       //     });
+       //     context.ChangeMeasures.Add(
+       //    new UDM.ChangeMeasure
+       //    {
+       //        AccountID = "AON-123",
+       //        MeasureName = "Number of solutions implemented",
+       //        Value = 3,
+       //        Justification = ""
+       //    });
+       //     context.ChangeMeasures.Add(
+       //      new UDM.ChangeMeasure
+       //      {
+       //          AccountID = "AON-123",
+       //          MeasureName = "Number of repeated PR",
+       //          Value = 3,
+       //          Justification = ""
+       //      });
+       //     context.ChangeMeasures.Add(
+       //     new UDM.ChangeMeasure
+       //     {
+       //         AccountID = "AON-123",
+       //         MeasureName = "# of times RCA has been rejected",
+       //         Value = 3,
+       //         Justification = ""
+       //     });
+       //     context.ChangeMeasures.Add(
+       //        new UDM.ChangeMeasure
+       //        {
+       //            AccountID = "AON-123",
+       //            MeasureName = "P1 Count",
+       //            Value = 3,
+       //            Justification = ""
+       //        });
+       //     context.ChangeMeasures.Add(
+       //        new UDM.ChangeMeasure
+       //        {
+       //            AccountID = "AON-123",
+       //            MeasureName = "P2 Count",
+       //            Value = 3,
+       //            Justification = ""
+       //        });
+       //     context.ChangeMeasures.Add(
+       //        new UDM.ChangeMeasure
+       //        {
+       //            AccountID = "AON-123",
+       //            MeasureName = "MTTR Sev 1",
+       //            Value = 3,
+       //            Justification = ""
+       //        });
+       //     context.ChangeMeasures.Add(
+       //        new UDM.ChangeMeasure
+       //        {
+       //            AccountID = "AON-123",
+       //            MeasureName = "MTTR Sev 2",
+       //            Value = 3,
+       //            Justification = ""
+       //        });
 
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
+
         }
     }
 }
