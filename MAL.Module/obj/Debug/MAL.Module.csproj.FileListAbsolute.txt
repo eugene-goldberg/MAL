@@ -249,3 +249,10 @@ C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration10.resources
 C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration11.resources
 C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration12.resources
 C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration13.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration14.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration15.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration16.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration17.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration18.resources
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.csprojResolveAssemblyReference.cache
+C:\Projects\MAL\MAL.Module\obj\Debug\MAL.Module.Migrations.migration19.resources
