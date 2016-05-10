@@ -182,6 +182,10 @@
     <Compile Include="Migrations\201604271803292_migration-19.Designer.cs">
       <DependentUpon>201604271803292_migration-19.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201605101909436_migration-20.cs" />
+    <Compile Include="Migrations\201605101909436_migration-20.Designer.cs">
+      <DependentUpon>201605101909436_migration-20.cs</DependentUpon>
+    </Compile>
     <Compile Include="UDM\AccountTool.cs" />
     <Compile Include="UDM\ChangeMeasure.cs" />
     <Compile Include="UDM\DetailIncident.cs" />
@@ -194,6 +198,7 @@
       <DependentUpon>Module.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UDM\Incident.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201604232233507_migration-1.resx">
@@ -252,6 +257,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201604271803292_migration-19.resx">
       <DependentUpon>201604271803292_migration-19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201605101909436_migration-20.resx">
+      <DependentUpon>201605101909436_migration-20.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Model.DesignedDiffs.xafml" />
     <EmbeddedResource Include="Module.resx">

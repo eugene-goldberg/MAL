@@ -36,5 +36,6 @@ namespace  MAL.Module.BusinessObjects {
         public virtual DbSet<Offering> Offering { get; set; }
         public virtual DbSet<ChangeMeasure> ChangeMeasures { get; set; }
         public virtual DbSet<AccountTool> AccountTools { get; set; }
+        public virtual DbSet<Incident> Incidents { get; set; }
     }
 }

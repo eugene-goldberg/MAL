@@ -10,30 +10,34 @@ using DevExpress.ExpressApp.Model;
 using DevExpress.Persistent.Base;
 using DevExpress.Persistent.BaseImpl.EF;
 using DevExpress.Persistent.Validation;
-using System.ComponentModel.DataAnnotations;
 
-namespace MAL.Module.BusinessObjects
+namespace MAL.Module.UDM
 {
-    // Register this entity in the DbContext using the "public DbSet<Alias> Aliass { get; set; }" syntax.
+    // Register this entity in the DbContext using the "public DbSet<Incident> Incidents { get; set; }" syntax.
     [DefaultClassOptions]
-  
-    public class AccountAlias : IXafEntityObject, IObjectSpaceLink, INotifyPropertyChanged
+    public class Incident : IXafEntityObject, IObjectSpaceLink, INotifyPropertyChanged
     {
-        public AccountAlias()
+        public Incident()
         {
             // In the constructor, initialize collection properties, e.g.: 
+            // this.AssociatedEntities = new List<AssociatedEntityObject>();
         }
         [Browsable(false)]  // Hide the entity identifier from UI.
-        public int ID { get; protected set; }
-        public virtual Account Account { get; set; }
-        public Int32 AccountAlilasID { get; set; }
-
-        public string AliasName { get; set; }
-        public string SourceSystem { get; set; }
-        public string ToolInstanceName { get; set; }
-        public string ProcessArea { get; set; }
-        public string SourceColumn { get; set; }
-        public string SourceValue { get; set; }
+        public Int32 ID { get; protected set; }
+        public string INCIDENTNUMBER { get; set; }
+        public string SUBMITTER { get; set; }
+        public DateTime REPORTEDDATE { get; set; }
+        public DateTime LASTRESOLVEDDATE { get; set; }
+        public string OWNERGROUP { get; set; }
+        public string COMPANY { get; set; }
+        public string CATEGORIZATIONTIER1 { get; set; }
+        public string VATEGORIZATIONTIER2 { get; set; }
+        public string CATEGORIZATIONTIER3 { get; set; }
+        public string RESOLUTIONCATEGORY { get; set; }
+        public string RESOLUTIONCATEGORYTIER2 { get; set; }
+        public string RESOLUTIONCATEGORYTIER3 { get; set; }
+        public string REPORTEDSOURCE { get; set; }
+        public string DESCRIPTION { get; set; }
 
         #region IXafEntityObject members (see https://documentation.devexpress.com/eXpressAppFramework/clsDevExpressExpressAppIXafEntityObjecttopic.aspx)
         void IXafEntityObject.OnCreated()
@@ -72,6 +76,5 @@ namespace MAL.Module.BusinessObjects
         }
         public event PropertyChangedEventHandler PropertyChanged;
         #endregion
-   
     }
 }

@@ -22,9 +22,13 @@ namespace MAL.Module.BusinessObjects
             //this.AssociatedAccounts = new List<Account>();
         }
         [Browsable(false)]  // Hide the entity identifier from UI.
-        public Int32 ID { get; protected set; }
+        public int ToolID { get; set; }
+        public string ToolRegisterID { get; set; }
+        public string ToolCategoryName { get; set; }
+        public string ToolInstanceName { get; set; }
+        public string Description { get; set; }
 
-       
+
 
         #region IXafEntityObject members (see https://documentation.devexpress.com/eXpressAppFramework/clsDevExpressExpressAppIXafEntityObjecttopic.aspx)
         void IXafEntityObject.OnCreated()
@@ -64,10 +68,7 @@ namespace MAL.Module.BusinessObjects
         public event PropertyChangedEventHandler PropertyChanged;
         #endregion
 
-        public int ToolID { get; set; }
-        public string ToolCategoryName { get; set; }
-        public string ToolInstanceName { get; set; }
-        public string Description { get; set; }
+       
 
         //public virtual IList<Account> AssociatedAccounts { get; set; }
     }
